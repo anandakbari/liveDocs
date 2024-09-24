@@ -21,7 +21,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <ClerkProvider
       apperance={{
         baseTheme: dark,
-        variable:{
+        variables:{
           colorPrimary:"#3371FF",
           fontSize:'16px',
         },
